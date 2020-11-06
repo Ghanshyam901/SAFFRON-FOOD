@@ -1,0 +1,542 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    background-color: #fff;
+    color:black;
+    font-family: 'lato','Arial'sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+
+    /*----------------------------*/
+    /*resulable---*/
+}
+.clearfix{zoom:1}
+.clearfix :after{
+    margin: 0;
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+
+
+
+.row{
+max-width: 1140px;
+margin:0 auto;
+}
+.section{
+    color:black;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 25%;
+}
+
+.box{
+    margin-left:0.8%;
+   
+
+}
+.box p{
+   font-size: 90%;
+   line-height: 140%;
+}
+/************* headings */
+h1,h2,h3{
+       font-weight: 300px;
+       text-transform: uppercase;
+      
+
+}
+h1{
+    padding-top: 15%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#fff;
+    font-size: 220%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+h2{
+    
+    margin-top: 50px;
+    font-size: 180%;
+    word-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h3{
+
+    font-size: 110%;
+    
+    margin-bottom: 15px;
+}
+h2:after{
+    display: block;
+    height: 3px;
+    background-color: rgb(100, 81, 53);
+    content: " ";
+    width: 100px;
+    margin:0 auto;
+    margin-top:30px;
+    
+}
+/* ======= paragraph   ======== */
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+   margin-left: 15%;
+   margin-right:15%
+    
+}
+
+/***** ===== ICON ==== ***/
+
+.icon-big{
+    font-size: 300%;
+    display: block;
+    color:rgb(218, 157, 45);
+}
+
+/*buttons -======================== */
+
+.btn:link,.btn:visited{
+    color:#fff;
+    
+    display:inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;   
+    transition:background-color 0.2s;
+ 
+}
+
+.btn-full:link,.btn-full:visited{
+    color:#fff;
+    background-color: rgb(100, 81, 53);
+    border:1px solid rgb(100, 81, 53);
+}
+.btn-ghost:link , .btn-ghost:visited{
+    border:1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+.btn:hover,.btn:active{
+    color:rgb(100, 81, 53);
+
+}
+
+.btn-full:hover,.btn-full:active{
+    
+    border:1px rgb(100, 81, 53);
+    
+}
+.btn-ghost:hover , .btn-ghost:active{
+    border: 1px rgb(100, 81, 53);
+    color:#fff;
+    border-color:  rgb(100, 81, 53);
+}
+
+/*-----------------------------------*/
+/* header ..*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url(img/food2.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    background-attachment: fixed;
+}
+.head-box{
+    position: absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.logo{
+
+    height:150px;
+    width:auto;
+    float :left;
+    margin-top: 20px;
+}
+.main-nav{
+    float:right; 
+    list-style: none;;
+    margin-top: 50px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left:40px;
+}
+.main-nav li a{
+    color:#fff;
+}
+.main-nav li a:link,
+.main-nav li a :visited{
+   color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding:5px 0px;
+    
+}
+.main-nav  li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #fff;
+
+
+}
+
+/*============================================*/
+/* meals showcase*/
+.section .long-copy{
+    margin-bottom: 25px;
+}
+
+/*============================================*/
+/* meals showcase*/
+
+.meals-shoecase{
+
+    list-style:none;
+    width: 100%;
+    
+}
+.meals-showcase li{
+    display: block;
+    float:left;
+    width:25%;
+}
+.meal-photo{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+}
+.meal-photo img{
+    opacity: 0.7;
+   
+    width:100%;
+    height: auto;
+    transform: scale(1);
+    transition:transform 0.5s , opacity 0.5s;
+}
+.meal-photo img:hover{
+    opacity: 1;
+    transform: scale(1.15);
+}
+.meal{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+/*========= phone ===============*/
+
+.phone{
+    color:black;
+    margin-right: auto;
+    background-color: rgb(223, 223, 223);
+    
+}
+
+.step-box:first-child{
+    text-align: right;
+    padding-right: 2%;
+    margin-top: 10px;
+   
+   
+
+}
+.step-box:last-child{
+      padding-left: 3%;
+      margin-top: 30px;
+}
+
+.app-screen{
+    width: 70%;
+    
+
+    
+
+}
+.work-step{
+   margin-top: 50px;;
+    margin-bottom: 50px;
+    
+}
+.work-step:last-of-type{
+
+    margin-bottom: 80px;
+}
+.work-step div{
+    float : left;
+    color:black;
+    border: 2px solid orange;
+    display: inline-block;
+    border-radius: 40%;
+    height: 50px;
+    width :50px;
+    text-align: center;
+    padding: 8px;
+     margin-right:25px;
+   
+    
+}
+.app-btn img{
+    width: 150px;;
+    height:80px;
+    border-radius: 20px;
+    margin-right:20px;
+}
+.app-screen img{
+    width:100px;
+    height: 100px;;
+}
+.app-btn:link,.app-btn:visited{
+    border: 0;
+
+}
+/*============== city ===============*/
+/*===================================*/
+
+.section-city{
+    color:black;
+    margin-bottom: 100px;
+    
+}
+
+a:link,
+a:active{
+
+    color:orange;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid orange;
+    transition: border-bottom 1.2s ,color 0.2s;
+}
+a:hover,a:active{
+
+    color:black;
+    border-bottom: 1px solid transparent;
+    
+}
+
+
+
+.box-city img{
+    width:250px;
+    height:250px;
+   margin-left: 15px;
+    margin-bottom: 15px;
+}
+.city{
+
+    margin-bottom: 5px;
+    margin-left:15px;
+}
+.city-name{
+    margin-left:15px;
+}
+.city-icon{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color:orange;
+    font-size: 20px;
+
+
+    line-height: 20px;;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+/*8 ============ customers */
+
+.customer {
+     
+    padding-top: 20px;
+     background-image: linear-gradient(rgba(0,0,0.8),rgba(0,0,0,0.8)),url(img/bkg.jpeg);
+     background-size: cover;
+    
+    color:white;
+    background-attachment: fixed;
+    }
+
+
+/* customer ==== */
+
+    
+blockquote{
+    padding:2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-bottom:10%;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    margin-top:20%;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    margin-bottom: 20%;
+}
+cite img{
+    height:50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+/* ===== price   ============== */
+
+.price{
+    color:black;
+    padding-bottom: 5%;
+    background-color: rgb(238, 230, 230);
+}
+
+.btn-sign-up{
+    color:black;
+    background-color: orange;
+    padding-bottom: 40px;
+
+    
+}
+.btn-sign-up:link,.btn-sign-up:visited{
+    color:orange
+    
+    display:inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;   
+    transition:background-color 0.3s;
+}
+
+.btn-sign-up:hover,.btn-sign-upl:active{
+    
+    border:1px rgb(100, 81, 53);
+}
+.price-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width:90%;
+    margin-left: 13px;
+    box-shadow: 2px 2px 2px orange;
+}
+.price-box div{
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+    font-weight: 100;
+}
+.price-meal{
+    font-size: 250%;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.price-per-meal{
+font-size: 80px;
+
+}
+.price-box ul{
+    list-style:none;
+}
+
+.plan-box ul li{
+    padding:5px 0;
+    padding-bottom: 5px;
+}
+
+
+/*********** CONTACT */
+.contact{
+    width: 60%;
+    margin: 0 auto;
+
+
+}
+input[type=text],input[type=email],select,textarea{
+
+    width:100%;
+    padding : 7px; 
+    border-radius: 3px;
+    border: 1px solid rgb(180, 20, 114);
+}
+
+.submit{
+    height: 20px;
+    width: 20px;
+
+}
+
+/*============= footer ==============*/
+
+footer{
+    background-color: rgb(46, 42, 42);
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-nav{
+    list-style :None;
+    float:left;
+    color:grey;
+}
+.social-media{
+    list-style:none;
+    float:right;
+
+}
+.footer-nav li,
+.social-media li{
+    display: inline-block;
+    margin-right: 20px;
+    color:grey;
+}
+.footer-nav a:last-child,
+.social-media li:last-child{
+    margin-right:0;
+
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-media li a:link,
+.social-media li a:visited{
+    text-decoration:none;
+    border:0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a :hover,
+.footer-nav li a:active{
+    color:red;
+    tt
+}
+
+footer p{
+    color:grey;
+    text-align:center;
+    font-size:100%;
+}

@@ -1,0 +1,37 @@
+
+@medai only screen and (max-width: 1200px){
+
+    .head-box{
+        width=100;
+        padding:0.2%;
+    }
+    .row{
+        padding:0 2%;
+    }
+}
+
+@medai only screen and (max-width:1023px){
+    body{font-size:18px;}
+    section{padding :60px 0;}
+
+    .long-copy{
+        width:80px;
+        margin-left :10px;
+    }
+    .step-box :last-child{
+        margin-top:10px;
+    }
+    .step-box{margin-top :10%;}
+    .work-step{margin-bottom:40px;}
+    .work-step :last-of-type{margin-bottom:60px;}
+
+    .app-screen{
+        width:40%;
+    }
+}
+@medai only screen and (max-width:767px){
+
+}
+@medai only screen and (max-width:420px){
+
+}

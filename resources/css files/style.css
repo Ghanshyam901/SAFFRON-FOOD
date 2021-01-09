@@ -423,15 +423,14 @@ cite img{
 
     
 }
-.btn-sign-up:link,.btn-sign-up:visited{
+.btn-sign-up:link ,.btn-sign-up:visited{
     color:orange
-    
-    display:inline-block;
-    padding:10px 30px;
+    display: inline-block;
+    padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 20px;   
-    transition:background-color 0.3s;
+    border-radius:20px;   
+    transition: background-color 0.3s;
 }
 
 .btn-sign-up:hover,.btn-sign-upl:active{
